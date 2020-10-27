@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'xui';  /* project id 942163 */
+    src:url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAS0AAsAAAAACzAAAARmAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCEFgqISIY7ATYCJAMsCxgABCAFhDEHgQIbQQnInpo8KREioIDEDADg+IiHp7Ha+zOzfuKQRKVBMk0ikmiQ3BORRPLS7iKevIT9P7vqD6BlLyLAgyOyuzeoqpkd9Fx3rcBYQXiRnEIhVQ3mJYz+/+83K9ohkvHSNURS/Cb3cbjA5E5FQttCs5BErO/0hWqhLKQ+CKnOzqbCUTnhVz1PoGmMHII17lOXQK6wTgvEqRDxgjyXVRrcoZ6qKtcWcU9FPV1PT4G74e/Hf0UhJ6lk1os2H3EFoOHXjA8jeaA9YFcecHk6wvEmMmYBhbijFl+T4+ZZRJr3g4tdQJe6pDrVwY8//eLHI+02eecD2/BEi0KX7Ry4GDSFJCtqKqryj9cgqozZgfNaS5NfM1wxhQegAB6CEvAIlIHHoAI8BdWAF6AK8BFUBYZBdWCEYRqg5V8zBPSDmA4Q58Fi20MzbJbEVRR9UJIFSUmaB+5dsaCDezPJ+uDalDmwMmXFa1Mr0QAPByvc06sbhw9Y0OrAinfaRo4Gs5rEglBJq1fXJPNguoj9hP6la938WHI34cz31JDXeX3Q2q0WPanymIXqGx6VJj0mm0ijV63xK/sT0ODR9OgZx8pIrsNB29bpA35ATYTLkXmBlKUmECCxMp86w+6fWH9JQYbmMhqKZheI6ccAnllo1jgH59tM391ZpWibmMgoyVwfxeYfGa+NOrXNExPE/F3tKiW+Fb4fwEGqhH3Wv1fgofnRhi49f0v6JbervSrtcUVhbeb3/cQ9mJjeD7S53R73Evftb4eK2DoWVD4dfNsMEtW7wXctElQE+KxRwefu5d01JSmbTudhsjP5wOnahK7nvn5wfcCWy3mQ5ISCOxpDwkZKykSCMeiYOqHTXBubyhcMCZMpKRuONLuyTqicCoKvtw6bJlL7cr650XJbyqQj3UxXtyOcu6JrTt5YzqDLWFJ4mpuh/yfrS/lTigG0pW+5LhQ1Mw5dEP7m6HkzJwKQvqe/u+K1wuc41tWmb+nP3/tvrLk6tnddV/O/3irg82tRqtsKTF9al74j8GcuKQI/rvJQLHEKoWGyu1A4kRECLYsynSQ07Q38lcv7vJ+eDXbuTcgGU39SM9qfZWOtxTnBX9Ey2V+VzfM3zVR8c0u/a0SiNDDDjZ0esJf4ky6v/FnVG2txvvVXDLmpV202jL9ppxf3bJkSucpmDnkpCjC+TibkZ2PYOZAqO1pDFxBpjXi5mOegK4jjQ2yMKcwryLV5UAxx3S/g20gRpZjBHBtl3D1fhiIRlolzbAvy07wgpfGq/HysfVCen42C0mocxItCAhg+nRghfqwY7HemlC5qvZ98AUK0ivDijpKhK9Bd549C596MQnkKdKvHjDVNucRgXhuiCLUJY9xGDisqzL0oIRFpZjHi+lEtED8qT3BAY1yVfLMU7mrmbZ5F31EdM7De24oUOUpUohq1qEcjmtGKDo39HMe2BxyIxd4IwlTZjQuRIJUdHtEal/gjLI9E3kBAHEMdVOI1FIojXh6BokIAAA==') format('woff2'), 
+    url('//at.alicdn.com/t/font_942163_sj6438ecwv.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_942163_sj6438ecwv.woff') format('woff'),
+    url('//at.alicdn.com/t/font_942163_sj6438ecwv.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_942163_sj6438ecwv.svg#xui') format('svg');
+  }
+  
+.xui {
+    font-family:"xui" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-next:before { content: "\e697"; }
+
+.icon-next1:before { content: "\e6d1"; }
+
+.icon-last:before { content: "\e6d2"; }
+
+.icon-last1:before { content: "\e62a"; }
+
+.x-scroll-list{
+    border:1px solid #E0DFDF;
+    display: flex;
+    .x-scroll-list-container{
+        flex:1;
+        overflow: hidden;
+    }
+    .x-scroll-list-options{
+        white-space: nowrap;
+        position: relative;
+        height:34px;
+        line-height:34px;
+    }
+    .x-scroll-list-option{
+        display: inline-block;
+        padding:0px 10px;
+        cursor: pointer;
+        position: relative;
+        height:26px;
+        line-height: 26px;
+        user-select: none;
+        &:hover{
+            background-color: #E0DFDF;
+        }
+        &.x-scroll-list-option-selected{
+            background-color: #DA444A;
+            color:#FFFFFF;
+        }
+        &.x-scroll-list-option-disabled{
+            background-color:#ccc;
+            color:#ccc;
+        }
+        &:last-child{
+            border-bottom:none;
+        }
+    }
+    .x-scroll-list-page{
+        width:34px;
+        cursor: pointer;
+        line-height: 34px;
+        text-align: center;
+        &:hover{
+            background-color: #E0DFDF;
+        }
+    }
+}

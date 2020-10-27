@@ -1,0 +1,6 @@
+/src/
+/dev/
+/scripts/
+webpack*
+*.lock
+/lib/

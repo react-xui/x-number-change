@@ -1,0 +1,1 @@
+'use strict';var _Index=require("./components/Index"),_Index2=_interopRequireDefault(_Index);function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}module.exports=_Index2.default;
